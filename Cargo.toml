@@ -10,6 +10,7 @@ keywords = ["actor", "futures", "actix", "async", "tokio"]
 repository = "https://github.com/imededin/actix"
 categories = ["network-programming", "asynchronous"]
 license = "MIT OR Apache-2.0"
+edition = "2021
 
 
 [badges]
