@@ -10,8 +10,7 @@ keywords = ["actor", "futures", "actix", "async", "tokio"]
 repository = "https://github.com/imededin/actix"
 categories = ["network-programming", "asynchronous"]
 license = "MIT OR Apache-2.0"
-edition.workspace = true
-rust-version.workspace = true
+
 
 [badges]
 maintenance.status = "passively-maintained"
