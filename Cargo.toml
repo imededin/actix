@@ -7,7 +7,7 @@ authors = [
 ]
 description = "Actor framework for Rust"
 keywords = ["actor", "futures", "actix", "async", "tokio"]
-repository = "https://github.com/actix/actix"
+repository = "https://github.com/imededin/actix"
 categories = ["network-programming", "asynchronous"]
 license = "MIT OR Apache-2.0"
 edition.workspace = true
@@ -50,18 +50,3 @@ path = "src/lib.rs"
 doc-comment = "0.3"
 futures-util = { version = "0.3.22", default-features = false, features = ["alloc"] }
 
-[[example]]
-name = "fibonacci"
-required-features = ["macros"]
-
-[[example]]
-name = "ping"
-required-features = ["macros"]
-
-[[example]]
-name = "weak_addr"
-required-features = ["macros"]
-
-[[example]]
-name = "weak_recipient"
-required-features = ["macros"]
