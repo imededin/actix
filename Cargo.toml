@@ -33,18 +33,29 @@ path = "src/lib.rs"
 	# actix-rt          = { path = "../actix-net/actix-rt", default-features = false }
 	actix-rt          = { git = "https://github.com/najamelan/actix-net", branch =  "feature/wasm-runtime", default-features = false }
 
-	actix_derive      = "0.4"
-	bytes             = "0.4"
-	crossbeam-channel = "0.3"
 	derive_more       = "0.14.0"
-	futures           = "0.1"
 	hashbrown         = "0.1.8"
-	log               = "0.4"
 	lazy_static       = "1.2"
 	bitflags          = "1.0"
-	smallvec          = "0.6"
-	parking_lot       = "0.7"
 	tokio-timer       = "0.2.8"
+ 	actix-macros = { version = "0.2", optional = true }
+actix_derive = { version = "0.6", optional = true }
+
+bitflags = "2"
+bytes = "1"
+crossbeam-channel = "0.5"
+futures-core = { version = "0.3.22", default-features = false }
+futures-sink = { version = "0.3.22", default-features = false }
+futures-task = { version = "0.3.22", default-features = false }
+futures-util = { version = "0.3.22", default-features = false }
+log = "0.4"
+once_cell = "1.5"
+parking_lot = "0.12"
+pin-project-lite = "0.2"
+smallvec = "1.6.1"
+tokio = { version = "1", features = ["io-util", "sync"] }
+tokio-util = { version = "0.7", features = ["codec"] }
+
 
 [dev-dependencies]
 doc-comment = "0.3"
