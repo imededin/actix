@@ -31,7 +31,7 @@ path = "src/lib.rs"
 [dependencies]
 
 	# actix-rt          = { path = "../actix-net/actix-rt", default-features = false }
-	actix-rt          = { git = "https://github.com/najamelan/actix-net", branch =  "feature/wasm-runtime", default-features = false }
+	actix-rt          = { git = "https://github.com/imededin/actix-net.git", branch =  "master", default-features = false }
 
 	derive_more       = "0.14.0"
 	hashbrown         = "0.1.8"
