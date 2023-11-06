@@ -21,6 +21,11 @@ name = "actix"
 path = "src/lib.rs"
 
 [features]
+default = ["macros"]
+
+# Re-exports derive macros from actix-derive and enables `#[actix::main]`.
+macros = ["actix-macros", "actix_derive"]
+
 
 	tokio   = [ "actix-rt/tokio" ]
 	wasm    = [ "actix-rt/wasm"  ]
